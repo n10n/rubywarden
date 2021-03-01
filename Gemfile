@@ -1,14 +1,14 @@
 source "https://rubygems.org"
 
-ruby ">= 2.2.8"
+ruby ">= 2.4.0"
 
-gem "rack", ">= 2.0.6"
+gem "rack", "~> 2.1.4"
 
-gem "sinatra", "~> 2.0.3"
-gem "sinatra-contrib", "~> 2.0.3"
+gem "sinatra", "~> 2.0.0"
+gem "sinatra-contrib", "~> 2.0.0"
 
-gem "activerecord", "~> 5.1.7"
-gem "sinatra-activerecord", "~> 2.0.13"
+gem "activerecord", "~> 5.1.0"
+gem "sinatra-activerecord", "~> 2.0.0"
 gem "sqlite3"
 
 gem "unicorn"
@@ -28,10 +28,6 @@ gem "rack-test"
 
 group :keepass, :optional => true do
   gem 'rubeepass', '~> 3.3'
-end
-
-group :migrate, optional: true do
-  gem 'yaml_db'
 end
 
 gem 'pry'

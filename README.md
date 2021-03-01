@@ -1,8 +1,12 @@
-**This project is not associated with the
+**This project is no longer being maintained.  Please see
+[this issue](https://github.com/jcs/rubywarden/issues/122)
+for further information.**
+
+This project is not associated with the
 [Bitwarden](https://bitwarden.com/)
 project nor 8bit Solutions LLC.
 Do not contact Bitwarden for support with using this backend server
-(or at the very least, make it abundantly clear that you are using a 3rd party backend server).**
+(or at the very least, make it abundantly clear that you are using a 3rd party backend server).
 
 ## Rubywarden
 
@@ -98,11 +102,6 @@ Then you can configure the Bitwarden clients with a single server URL of
 `https://example.com/notbitwarden`.
 
 ### Updating
-
-If you've previously used Rubywarden before July 30, 2018 when it was called
-`bitwarden-ruby`, when it did not use ActiveRecord, you should instead
-[migrate](AR-MIGRATE.md)
-your existing database.
 
 To update your instance of Rubywarden, fetch the latest code:
 
